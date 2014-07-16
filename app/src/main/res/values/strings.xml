@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TerraApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_activity_reptiles_text">Reptilien</string>
+    <string name="main_activity_turtles_text">Schildkröten</string>
+    <string name="main_activity_amphibes_text">Amphibien</string>
+    <string name="main_activity_invertebrates_text">Insekten</string>
+    <string name="characteristics_species_size_text">Größe</string>
+
+    <string name="overview_invertebrates_activity_scorpions_text">Skorpione</string>
+    <string name="overview_invertebrates_activity_spiders_text">Spinnen</string>
+    <string name="overview_invertebrates_activity_phasmids_text">Phasmiden</string>
+    <string name="overview_invertebrates_activity_mantis_text">Mantiden</string>
+    <string name="overview_invertebrates_activity_ants_text">Ameisen</string>
+
+    <string name="div_text">Sonstiges</string>
+
+    <string name="overview_turtles_activity_tortoise_text">Landschildkröten</string>
+    <string name="overview_turtles_activity_turtle_text">Wasserschildkröten</string>
+
+    <string name="amphibians_overview_activity_dendrobates_text">Dendrobaten</string>
+    <string name="amphibians_overview_activity_hyla_text">Laubfrösche</string>
+    <string name="amphibians_overview_activity_salamander_text">Schwanzlurche</string>
+    <string name="amphibians_overview_activity_toad_text">Kröte</string>
+
+
+    <string name="reptiles_overview_activity_snakes_text">Schlangen</string>
+    <string name="reptiles_overview_activity_chameleons_text">Chameleon</string>
+    <string name="reptiles_overview_activity_geckos_text">Geckos</string>
+    <string name="reptiles_overview_activity_agamids_iguanas_text">Agamen und Leguane</string>
+    <string name="reptiles_overview_activity_varanids_text">Warane</string>
+
+
+
+
+</resources>

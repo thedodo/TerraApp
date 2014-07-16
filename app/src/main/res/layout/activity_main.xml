@@ -1,0 +1,91 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="2"
+    android:rowCount="2" >
+
+    <LinearLayout
+        android:id="@+id/main_activity_ll_invertebrates"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/main_activity_ib_invertebrates"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_ib_invertebrates" />
+
+        <TextView
+            android:id="@+id/main_activity_tv_invertebrates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_activity_invertebrates_text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_activity_ll_turtles"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/main_activity_ib_turtles"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_ib_turtles" />
+
+        <TextView
+            android:id="@+id/main_activity_tv_turtles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_activity_turtles_text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_activity_ll_reptiles"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/main_activity_ib_reptiles"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_ib_reptiles" />
+
+        <TextView
+            android:id="@+id/main_activity_tv_reptiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_activity_reptiles_text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_activity_ll_amphibians"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/main_activity_ib_amphibians"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_ib_amphibians" />
+
+        <TextView
+            android:id="@+id/main_activity_tv_amphibies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_activity_amphibes_text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+</GridLayout>

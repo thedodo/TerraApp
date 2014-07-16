@@ -1,0 +1,138 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+
+    <GridLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="2"
+    android:rowCount="3" >
+
+    <LinearLayout
+        android:id="@+id/invertebrates_overview_activity_ll_scorpions"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/invertebrates_overview_activity_ib_scorpions"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_ib_invertebrates" />
+
+        <TextView
+            android:id="@+id/invertebrates_overview_activity_tv_scorpions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overview_invertebrates_activity_scorpions_text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/invertebrates_overview_activity_ll_spiders"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/invertebrates_overview_activity_ib_spiders"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_ib_turtles" />
+
+        <TextView
+            android:id="@+id/invertebrates_overview_activity_tv_spiders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overview_invertebrates_activity_spiders_text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/invertebrates_overview_activity_ll_phasmids"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/invertebrates_overview_activity_ib_phasmids"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_ib_reptiles" />
+
+        <TextView
+            android:id="@+id/invertebrates_overview_activity_tv_phasmids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overview_invertebrates_activity_phasmids_text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/invertebrates_overview_activity_ll_mantis"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/invertebrates_overview_activity_ib_mantis"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_ib_amphibians" />
+
+        <TextView
+            android:id="@+id/invertebrates_overview_activity_tv_mantis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overview_invertebrates_activity_mantis_text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/invertebrates_overview_activity_ll_ants"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/invertebrates_overview_activity_ib_ants"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_ib_amphibians" />
+
+        <TextView
+            android:id="@+id/invertebrates_overview_activity_tv_ants"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overview_invertebrates_activity_ants_text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/invertebrates_overview_activity_ll_div"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/invertebrates_overview_activity_ib_div"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_ib_amphibians" />
+
+        <TextView
+            android:id="@+id/invertebrates_overview_activity_tv_div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/div_text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+</GridLayout>
+</ScrollView>

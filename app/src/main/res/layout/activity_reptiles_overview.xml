@@ -1,0 +1,139 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnCount="2"
+        android:rowCount="3" >
+
+        <LinearLayout
+            android:id="@+id/reptiles_overview_activity_ll_snakes"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/reptiles_overview_activity_ib_snakes"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_ib_invertebrates" />
+
+            <TextView
+                android:id="@+id/reptiles_overview_activity_tv_snakes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reptiles_overview_activity_snakes_text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reptiles_overview_activity_ll_chameleons"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/reptiles_overview_activity_ib_chameleons"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_ib_invertebrates" />
+
+            <TextView
+                android:id="@+id/reptiles_overview_activity_tv_chameleons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reptiles_overview_activity_chameleons_text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reptiles_overview_activity_ll_geckos"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/reptiles_overview_activity_ib_geckos"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_ib_invertebrates" />
+
+            <TextView
+                android:id="@+id/reptiles_overview_activity_tv_geckos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reptiles_overview_activity_geckos_text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reptiles_overview_activity_ll_agamids_iguanas"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/reptiles_overview_activity_ib_agamids_iguanas"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_ib_invertebrates" />
+
+            <TextView
+                android:id="@+id/reptiles_overview_activity_tv_agamids_iguanas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reptiles_overview_activity_agamids_iguanas_text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reptiles_overview_activity_ll_varanids"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/reptiles_overview_activity_ib_varanids"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_ib_invertebrates" />
+
+            <TextView
+                android:id="@+id/reptiles_overview_activity_tv_varanids"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reptiles_overview_activity_varanids_text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reptiles_overview_activity_ll_div"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/reptiles_overview_activity_ib_div"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_ib_invertebrates" />
+
+            <TextView
+                android:id="@+id/reptiles_overview_activity_tv_div"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/div_text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+    </GridLayout>
+</ScrollView>

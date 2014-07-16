@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:columnCount="2"
+        android:rowCount="1" >
+
+        <LinearLayout
+            android:id="@+id/turtles_overview_activity_ll_tortoise"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/turtles_overview_activity_ib_tortoise"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_ib_invertebrates" />
+
+            <TextView
+                android:id="@+id/turtles_overview_activity_tv_tortoise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/overview_turtles_activity_tortoise_text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/turtles_overview_activity_ll_turtle"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/turtles_overview_activity_ib_turtle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_ib_turtles" />
+
+            <TextView
+                android:id="@+id/turtles_overview_activity_tv_turtle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/overview_turtles_activity_turtle_text"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+
+    </GridLayout>
+</ScrollView>
